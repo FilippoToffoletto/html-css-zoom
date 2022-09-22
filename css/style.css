@@ -60,7 +60,6 @@ main{
     justify-content: center;
 }
 .web-box{
-    /* width: calc(100vw - 85%); */
     padding-right: 10px;
     position: relative;
     display: inline-block;
@@ -87,4 +86,18 @@ footer{
     background-color: #222222;
     justify-content: space-between;
     align-items: center;
+}
+
+footer span{
+    display: block;
+    text-align: center;
+}
+
+.footer-left{
+    position: relative;
+}
+
+.footer-left i{
+    display: block;
+    vertical-align: middle;
 }
