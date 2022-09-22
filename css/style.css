@@ -82,7 +82,7 @@ main{
 /* FOOTER */
 
 footer{
-    height: 80px;
+    height: 70px;
     background-color: #222222;
     justify-content: space-between;
     align-items: center;
@@ -91,13 +91,53 @@ footer{
 footer span{
     display: block;
     text-align: center;
+    padding: 5px 5px;
+    font-size: .8rem;
 }
 
-.footer-left{
-    position: relative;
-}
-
-.footer-left i{
+footer i{
     display: block;
-    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+footer div{
+    padding: 0px 5px;
+}
+.chevron .fa-solid{
+    display: inline-block;
+    font-size: .7rem;
+
+}
+.footer-left, .footer-center{
+    padding: 0px 10px;
+    align-items: center;
+}
+footer i:hover{
+    color: #636363;
+}
+footer i:active{
+    color: #46c600;
+}
+.green{
+    color:#46c600;
+}
+.red{
+    color: red;
+}
+
+.footer-right{
+    background-color: #4A4A4A;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right .btn a{
+    text-decoration: none;
+    color: red;
+}
+.footer-right .btn a:hover{
+    text-decoration: underline;
 }
